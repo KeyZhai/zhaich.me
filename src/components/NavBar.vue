@@ -39,32 +39,19 @@ const { y: scroll } = useWindowScroll()
           <div i-ri-lightbulb-line class="md:hidden" />
         </RouterLink>
         <RouterLink to="/talks" class="lt-md:hidden" title="Talks">
-          Talks
-        </RouterLink>
-        <RouterLink to="/sponsors-list" title="Sponsors">
-          <span class="lt-md:hidden">Sponsors</span>
-          <div i-ri-heart-line class="md:hidden" />
-        </RouterLink>
-        <RouterLink to="/podcasts" class="lt-md:hidden" title="Podcasts">
-          <div i-ri-mic-line />
+          Works
         </RouterLink>
         <RouterLink to="/photos" title="Photos">
           <div i-ri-camera-3-line />
         </RouterLink>
-        <RouterLink to="/demos" title="Demos">
-          <div i-ri-screenshot-line />
-        </RouterLink>
-        <!-- <RouterLink to="/chat" title="Let's Chat">
-          <div i-ri-chat-1-line />
-        </RouterLink> -->
-        <a href="https://bsky.app/profile/antfu.me" target="_blank" title="Bluesky" class="lt-md:hidden">
-          <div i-ri-bluesky-line />
+        <a href="https://space.bilibili.com/285033804?spm_id_from=333.1007.0.0" target="_blank" title="Bilibili" class="lt-md:hidden">
+          <div i-simple-icons-bilibili />
         </a>
-        <a href="https://github.com/antfu" target="_blank" title="GitHub" class="lt-md:hidden">
+        <a href="https://github.com/KeyZhai" target="_blank" title="GitHub" class="lt-md:hidden">
           <div i-uil-github-alt />
         </a>
-        <a href="/feed.xml" target="_blank" title="RSS" class="lt-md:hidden">
-          <div i-la-rss-square style="font-size:1.25rem; margin: 0 -0.125rem;" />
+        <a href="https://juejin.cn/user/3600253306288539" target="_blank" title="稀土掘金" class="lt-md:hidden">
+          <div i-tabler-brand-juejin style="font-size:1.25rem; margin: 0 -0.125rem;" />
         </a>
         <ToggleTheme />
       </div>

@@ -1,9 +1,9 @@
 ---
-title: Notes - Anthony Fu
+title: Notes - Zhaichanghao
 art: plum
 display: ''
 ---
 
 <SubNav />
 
-<ListPosts only-date type="note" />
+<ListPosts type="note" />

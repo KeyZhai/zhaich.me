@@ -1,31 +1,60 @@
 <template>
-  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <title>Anthony Fu @ antfu.me</title>
-    <mask id="mask0_634_3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="24" y="7" width="50" height="87">
-      <path
-        d="M73.7892 9.12595C69.3501 1.20478 61.8262 17.7197 60.2461 21.1572C56.9356 28.6299 55.2305 35.5788 53.5 43.5C51.5438 41.4076 48.5048 36.8913 47 34.5C46 32.5 44.178 33.3348 45.2582 35.5C44.2048 33.7065 44 31 40.4582 28.8541C31.3543 28.0321 23.7209 43.6536 25 51.5C28.5029 62.7044 40 53 42.8659 47.9845C42.5649 50.8241 42.5649 54.7847 45.424 56.1298C48.5 57 49.8631 54.9342 51.8194 52.9913C50.6908 64.7236 49.2612 76.9042 53.1737 88.4123C54.9794 94.9884 61.3747 96.6324 62.0519 88.5618C62.9547 78.5482 60.4719 68.7589 57.4623 59.3431C56.6347 56.6529 55.5 54.5 54.6886 51.7956C54.6886 48 55.6585 50.6972 57.0861 52.244C58.7413 54.0375 64.309 59.3431 66.5 59.5C65 57.5 64.5348 56.8771 64.309 56.6529C61.9014 53.6638 59.0423 50.8989 56.4842 47.9845C61.6757 40.5117 66.7167 32.3663 70.1777 23.7726C71.6825 19.3637 74.8425 13.7591 73.7892 9.12595ZM43.3926 40.8853C41.7373 45.4437 39.7811 48.956 35.9439 52.0945C26.1502 60.1051 25.1428 47.741 28.6457 41.8568C33.16 32.4411 42.7154 24.0715 43.3926 40.8853ZM52.5 49C51.2962 50.7187 49.5314 53.3274 47.5 54C45.8447 54.4484 45.3488 53.2902 45.0478 51.7956C44.145 46.8636 45.725 42.0063 46.4021 37.2237C48.0574 40.3622 50.119 42.8614 52 46C52.3762 46.822 53.0267 48.1033 52.5 49ZM55.1299 56.1298C58.3652 65.9192 60.5471 76.1569 59.6442 86.3947C58.7413 95.362 55.8823 88.8607 54.7537 84.3023C52.4213 74.2887 53 63.5 54.227 53.8133C54.528 54.5606 54.9042 55.6067 55.1299 56.1298ZM71.4568 11.1436C69.8767 21.755 62.0519 36.7006 55.4308 45.0701C56.7851 38.0457 58.7413 31.2454 61.45 24.5946C61.6757 23.2495 71.6072 3.52135 71.4568 11.1436Z"
-        fill="white"
-      />
-    </mask>
-    <g mask="url(#mask0_634_3)">
-      <path
-        class="path1"
-        d="M43.8252 39.3048C43.5 29 38 27 31 35.5C16.9959 58.4158 35 61 42.5 46C44.4559 42.5 45.5001 37 45.5001 37C44.8789 42.2731 43.8252 45.9801 43.8252 50C43.8252 56.6285 48 57.9 54.5 48.4C60.5 40.9 68.5 27.5 72 15.5C74.4792 7 70.5 4.5 64 16.5C55 31.5 50.7595 59 52.3 78C53.8038 96.5469 63 97.5 61 79.5C59.5082 66.0734 52 42.5 45.5001 33C48 38.5 57 52 65.5 58.5"
-        stroke="black" stroke-width="2.5" stroke-linecap="round"
-      />
-    </g>
+  <svg width="61" height="70" viewBox="0 0 61 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      class="path1"
+      d="M1 25C2.99 25 7.64 23.68 13.975 21.175C19.741 18.895 23.98 18.34 27.985 17.505C32.6094 16.5409 35.98 14.34 39.985 12.175C41.8875 11.1466 43.99 10.67 44.995 10.665C49.2499 10.6438 37.04 19.96 32.18 25.815C29.1718 29.4391 28.68 33.98 28.495 45.29C28.4554 47.7108 29.98 48.32 31.15 48.825C33.5613 49.8658 38.96 50 45.455 49.67C51.2928 49.3734 53.32 43.02 56.655 38.185C57.33 37.01 57.66 36.02 58.16 35.015C58.66 34.01 59.32 33.02 60 32"
+      stroke="#1E1E1E"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+    <path
+      class="path2"
+      d="M13 1C13 1.66 13 16.85 12.835 39.845C12.7548 51.0209 11.34 54.98 11 63.64C10.8936 66.3495 13.66 57.02 16.985 54.01C18.7625 52.4009 21.98 52 25.31 52.495C29.8788 53.1741 29.66 59.98 30.33 64.815C30.4975 66.0239 31.32 66.98 32.32 67.655C34.4156 69.0695 38.64 69 43.135 68.67C49.1043 68.2318 51.66 61.02 53.825 57.015C55.66 53.01 57.33 50.01 57.83 46.53C58 44.04 58 40.08 58 36"
+      stroke="#1E1E1E"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+    <path
+      class="path3"
+      d="M18 31C18 30.67 18 30.34 18.495 29.84C18.99 29.34 19.98 28.68 23 27"
+      stroke="#1E1E1E"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+    <path
+      class="path4"
+      d="M31 32C32.98 33 37.99 33.33 39.49 32.675C40.5065 32.2311 40 29.38 39.505 28.025C39.01 26.67 38.02 26.34 38.005 25.84C37.99 25.34 38.98 24.68 39.985 24.505C41.98 24.66 43.99 25 45.49 24.34C46 23.68 46 22.36 44 19"
+      stroke="#1E1E1E"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+    <path
+      class="path5"
+      d="M40 48C40 47.34 40 45.35 40.66 43.015C41.2071 41.0793 44.99 43.66 46.655 44C47.66 42.36 48.33 40.01 50.315 38.51C51.97 38 54.94 38 58 38"
+      stroke="#1E1E1E"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
   </svg>
 </template>
 
 <style scoped>
 @media (prefers-reduced-motion) {
-  .path1 {
+  .path1,
+  .path2,
+  .path3,
+  .path4,
+  .path5 {
     animation: none !important;
     stroke-dasharray: unset !important;
   }
 }
 @media print {
-  .path1 {
+  .path1,
+  .path2,
+  .path3,
+  .path4,
+  .path5 {
     animation: none !important;
     stroke-dasharray: unset !important;
   }
@@ -33,32 +62,168 @@
 @keyframes grow {
   0% {
     stroke-dashoffset: 1px;
-    stroke-dasharray: 0 350px;
+    stroke-dasharray: 0 400px;
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  25% {
+    stroke-dasharray: 400px 0;
+  }
+  50% {
+    stroke-dasharray: 400px 0;
+  }
+  75% {
+    stroke-dasharray: 0 400px;
+    opacity: 1;
+  }
+  100% {
+    stroke-dasharray: 0 400px;
+    opacity: 0;
+  }
+}
+@keyframes grow2 {
+  0% {
+    stroke-dashoffset: 1px;
+    stroke-dasharray: 0 300px;
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
-  40% {
-    stroke-dasharray: 350px 0;
+  30% {
+    stroke-dasharray: 300px 0;
+  }
+  55% {
+    stroke-dasharray: 300px 0;
+  }
+  80% {
+    stroke-dasharray: 0 300px;
+    opacity: 1;
+  }
+  100% {
+    stroke-dasharray: 0 300px;
+    opacity: 0;
+  }
+}
+@keyframes grow3 {
+  0% {
+    stroke-dashoffset: 1px;
+    stroke-dasharray: 0 50px;
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  35% {
+    stroke-dasharray: 50px 0;
+  }
+  60% {
+    stroke-dasharray: 50px 0;
   }
   85% {
-    stroke-dasharray: 350px 0;
+    stroke-dasharray: 0 50px;
+    opacity: 1;
   }
-  95%,
-  to {
-    stroke-dasharray: 0 350px;
+  100% {
+    stroke-dasharray: 0 50px;
+    opacity: 0;
+  }
+}
+@keyframes grow4 {
+  0% {
+    stroke-dashoffset: 1px;
+    stroke-dasharray: 0 150px;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    stroke-dasharray: 150px 0;
+  }
+  65% {
+    stroke-dasharray: 150px 0;
+  }
+  90% {
+    stroke-dasharray: 0 150px;
+    opacity: 1;
+  }
+  100% {
+    stroke-dasharray: 0 150px;
+    opacity: 0;
+  }
+}
+@keyframes grow5 {
+  0% {
+    stroke-dashoffset: 1px;
+    stroke-dasharray: 0 100px;
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  45% {
+    stroke-dasharray: 100px 0;
+  }
+  70% {
+    stroke-dasharray: 100px 0;
+  }
+  95% {
+    stroke-dasharray: 0 100px;
+    opacity: 1;
+  }
+  100% {
+    stroke-dasharray: 0 100px;
+    opacity: 0;
   }
 }
 .path1 {
   stroke-dashoffset: 1px;
-  stroke-dasharray: 350px 0;
-  animation: grow 10s ease forwards infinite;
+  stroke-dasharray: 0 400px;
+  animation: grow 12s ease-in-out infinite;
   transform-origin: center;
   stroke: #303030;
   animation-delay: 0s;
 }
-.dark .path1 {
+.path2 {
+  stroke-dashoffset: 1px;
+  stroke-dasharray: 0 300px;
+  animation: grow2 12s ease-in-out infinite;
+  transform-origin: center;
+  stroke: #303030;
+  animation-delay: 0.5s;
+}
+.path3 {
+  stroke-dashoffset: 1px;
+  stroke-dasharray: 0 50px;
+  animation: grow3 12s ease-in-out infinite;
+  transform-origin: center;
+  stroke: #303030;
+  animation-delay: 1s;
+}
+.path4 {
+  stroke-dashoffset: 1px;
+  stroke-dasharray: 0 150px;
+  animation: grow4 12s ease-in-out infinite;
+  transform-origin: center;
+  stroke: #303030;
+  animation-delay: 1.5s;
+}
+.path5 {
+  stroke-dashoffset: 1px;
+  stroke-dasharray: 0 100px;
+  animation: grow5 12s ease-in-out infinite;
+  transform-origin: center;
+  stroke: #303030;
+  animation-delay: 2s;
+}
+.dark .path1,
+.dark .path2,
+.dark .path3,
+.dark .path4,
+.dark .path5 {
   stroke: #fdfdfd;
 }
 </style>
